@@ -9,3 +9,15 @@ page-katigoria-view {
 .catImg {
   background-color: #bbbfc4;
 }
+
+.centerImage {
+  background: url(https://alphanews.live/sites/default/files/styles/media_image/public/2017-07/pyrkagia_stayrokonnoy3.jpg?itok=BHqXp41m);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.item-md p {
+  font-size: 1.1rem;
+}
