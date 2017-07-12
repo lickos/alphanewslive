@@ -1,83 +1,13 @@
-<ion-header>
-  <ion-navbar>
+<ion-header padding-top>
     <ion-item>
-    <ion-title>Home</ion-title>
-    <ion-icon name="md-menu" item-end></ion-icon>
+      <img src="../assets/img/logo.svg" />
+      <ion-icon name="md-menu" item-start></ion-icon>
+      <ion-icon padding-left name="ios-search-outline" item-end></ion-icon>
+      <ion-icon name="md-heart" item-end (click)="openCats()"></ion-icon>
+
     </ion-item>
-  </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-card>
-  <ion-item>
-  <ion-badge item-start color="danger">Πολιτική</ion-badge>
-  <p item-end>
-    <ion-icon name="ios-clock-outline"></ion-icon><small> 11/07/2017 - 11:02</small>
-  </p>
-  </ion-item>
-  <img src="http://alphanews.live/sites/default/files/styles/media_image/public/2017-07/cna_tc9a68017f0eb42dd8a9d856b9b9580cc.jpg?itok=Q1M9ifcI">
-  <ion-item text-wrap>
-  <h2>Τσίπρας: Το Κραν Μοντάνα δεν είναι το τέλος του δρόμου LIVE</h2>
-  </ion-item>
-  <ion-card-content>
-    <p>Την ετοιμότητα της Ελλάδας για επανέναρξη των συνομιλιών για το κυπριακό...</p>
-
-    <ion-row>
-      <ion-col>
-        <button ion-button icon-left clear small>
-          <ion-icon name="thumbs-up"></ion-icon>
-          <div>12 Likes</div>
-        </button>
-      </ion-col>
-      <ion-col>
-        <button ion-button icon-left clear small>
-          <ion-icon name="ios-star-outline"></ion-icon>
-          <div>Favorites</div>
-        </button>
-      </ion-col>
-      <ion-col center text-center>
-        <ion-note color="danger">
-          συντάχθηκε από AlphaNewsLive
-        </ion-note>
-      </ion-col>
-    </ion-row>
-  </ion-card-content>
-</ion-card>
-
-<ion-card>
-<ion-item>
-<ion-badge item-start color="danger">Κύπρος</ion-badge>
-<p item-end>
-  <ion-icon name="ios-clock-outline"></ion-icon><small> 11/07/2017 - 13:44</small>
-</p>
-</ion-item>
-<img src="http://alphanews.live/sites/default/files/styles/media_image/public/2017-07/cna_t1e9811a42f484246b2459897882f3942.jpg?itok=p7guIM3O">
-<ion-item text-wrap>
-<h2>Mαρτυρία: Όταν ο λόφος δίπλα στη Ναυτική Βάση στο Μαρί, γέμισε λευκά σεντόνια</h2>
-</ion-item>
-<ion-card-content>
-  <p>Τα όσα συγκλονιστικά βίωσε το μαύρο πρωινό της 11ης Ιουλίου 2011, όταν κλήθηκε να μεταβεί στο χώρο της...</p>
-
-  <ion-row>
-    <ion-col>
-      <button ion-button icon-left clear small>
-        <ion-icon name="thumbs-up"></ion-icon>
-        <div>12 Likes</div>
-      </button>
-    </ion-col>
-    <ion-col>
-      <button ion-button icon-left clear small>
-        <ion-icon name="ios-star-outline"></ion-icon>
-        <div>Favorites</div>
-      </button>
-    </ion-col>
-    <ion-col center text-center>
-      <ion-note color="danger">
-        συντάχθηκε από Ανδρέας Οδυσσέως
-      </ion-note>
-    </ion-col>
-  </ion-row>
-</ion-card-content>
-</ion-card>
 
 </ion-content>
