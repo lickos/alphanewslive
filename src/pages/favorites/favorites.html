@@ -12,10 +12,39 @@
   <ion-list>
     <ion-item-sliding>
       <ion-item text-wrap>
-        <ion-thumbnail item-start>
-          <img src="https://alphanews.live/sites/default/files/styles/media_image/public/2017-07/pyrkagia_stayrokonnoy3.jpg?itok=BHqXp41m" />
-        </ion-thumbnail>
-        <h2>Υπό πλήρη έλεγχο η τεραστίων διαστάσεων πυρκαγιά στην Πάφο (ΒΙΝΤΕΟ-ΦΩΤΟ)</h2>
+        <ion-img class="imgList" item-start src="https://alphanews.live/sites/default/files/styles/media_image/public/2017-07/pyrkagia_stayrokonnoy3.jpg?itok=BHqXp41m">
+        </ion-img>
+        <h2 id="listHead1">Υπό πλήρη έλεγχο η τεραστίων διαστάσεων πυρκαγιά στην Πάφο (ΒΙΝΤΕΟ-ΦΩΤΟ)</h2>
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button icon-left outline (click)="removeItem()"><ion-icon color="danger" name="trash"></ion-icon> Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item text-wrap>
+        <ion-img item-start class="imgList" src="https://alphanews.live/sites/default/files/styles/media_image/public/2017-05/cna_t6475d5efb84c486f92169ec422a21073.jpg?itok=J2oDxj3D">
+        </ion-img>
+        <h2 id="listHead2">14 αναπτυξιακά έργα στην ύπαιθρο, ενέκρινε το Υπουργικό Συμβούλιο</h2>
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button icon-left outline (click)="removeItem()"><ion-icon color="danger" name="trash"></ion-icon> Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item text-wrap>
+        <ion-img class="imgList" item-start src="https://alphanews.live/sites/default/files/styles/media_image/public/2017-04/image-0-02-05-cec6e9d79e626272e83b2f030710f3afd5424f43cc96c0871d499bb59a7a6db6-v.jpg?itok=yL2F8zXx">
+        </ion-img>
+        <h2 id="listHead3">Φάκελος "Φαέθων": Ταυτοποιήθηκαν οι έξι Έλληνες πεσόντες (ΒΙΝΤΕΟ)</h2>
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button icon-left outline (click)="removeItem()"><ion-icon color="danger" name="trash"></ion-icon> Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item text-wrap>
+        <ion-img class="imgList" item-start src="https://alphanews.live/sites/default/files/styles/media_image/public/2017-05/ypoyrgeio_paideias.jpg?itok=jKx5RDEa">
+        </ion-img>
+        <h2 id="listHead4">17,417 υποψήφιοι στις εξετάσεις για το νέο σύστημα διορισμών στην εκπαιδευση</h2>
       </ion-item>
       <ion-item-options side="right">
         <button ion-button icon-left outline (click)="removeItem()"><ion-icon color="danger" name="trash"></ion-icon> Delete</button>
