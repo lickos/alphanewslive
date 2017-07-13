@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ArtcleViewPage } from '../artcle-view/artcle-view';
 
 /**
  * Generated class for the KatigoriaViewPage page.
@@ -17,5 +18,9 @@ export class KatigoriaViewPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad KatigoriaViewPage');
+  }
+
+  openArticle() {
+    this.navCtrl.push(ArtcleViewPage);
   }
 }
