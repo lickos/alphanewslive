@@ -3,12 +3,13 @@
       <img src="assets/img/logo.svg" />
       <ion-icon name="md-menu" item-start></ion-icon>
       <ion-icon padding-left name="ios-search-outline" item-end></ion-icon>
-      <ion-icon name="md-heart" item-end (click)="openSearch()"></ion-icon>
+      <ion-icon name="md-heart" item-end></ion-icon>
     </ion-item>
 </ion-header>
 
-<ion-content>
-  <ion-title class="centered" padding>ΑΓΑΠΗΜΕΝΑ</ion-title>
+
+<ion-content padding>
+<ion-searchbar></ion-searchbar>
   <ion-list>
     <ion-item-sliding>
       <ion-item text-wrap>
@@ -51,5 +52,4 @@
       </ion-item-options>
     </ion-item-sliding>
   </ion-list>
-
 </ion-content>

@@ -12,6 +12,7 @@ import { KatigoriaViewPage } from '../pages/katigoria-view/katigoria-view';
 import { ArtcleViewPage } from '../pages/artcle-view/artcle-view';
 import { Splash } from '../pages/splash/splash';
 import { FavoritesPage } from '../pages/favorites/favorites';
+import { SearchPage } from '../pages/search/search';
 
 import { StatusBar } from '@ionic-native/status-bar';
 
@@ -25,6 +26,7 @@ import { StatusBar } from '@ionic-native/status-bar';
     FavoritesPage,
     KatigoriaViewPage,
     ArtcleViewPage,
+    SearchPage,
     Splash
   ],
   imports: [BrowserModule, IonicModule.forRoot(MyApp)],
@@ -38,6 +40,7 @@ import { StatusBar } from '@ionic-native/status-bar';
     TabsPage,
     KatigoriaViewPage,
     ArtcleViewPage,
+    SearchPage,
     Splash
   ],
   providers: [StatusBar, SplashScreen, { provide: ErrorHandler, useClass: IonicErrorHandler }]

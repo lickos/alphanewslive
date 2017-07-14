@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SearchPage } from '../search/search';
 
 /**
  * Generated class for the FavoritesPage page.
@@ -10,15 +11,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @IonicPage()
 @Component({
   selector: 'page-favorites',
-  templateUrl: 'favorites.html',
+  templateUrl: 'favorites.html'
 })
 export class FavoritesPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+  constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FavoritesPage');
   }
 
+  openSearch() {
+    this.navCtrl.push(SearchPage);
+  }
 }
